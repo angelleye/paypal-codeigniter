@@ -18,6 +18,8 @@ Server Requirements
 Installation
 ************
 
+Merge the /application directory into your CodeIgniter /application directory.
+
 Open /application/config/paypal-sample.php and adjust the value with your own Sandbox and Production API credentials.  Then save-as paypal.php.
 
 There are detailed comments inside the config file to help you fill it out correctly.
@@ -41,6 +43,23 @@ Each controller file includes functions with PHP arrays for every parameter avai
 When you run the function you will get a $PayPalResult array that consists of all the response parameters from PayPal, original request parameters sent to PayPal, and raw request/response info for troubleshooting.
 
 If errors occur they will be available in $PayPalResult['ERRORS'].
+
+*******
+Samples
+*******
+
+The Payments Pro controller has two methods ready for demo purposes after you update your config file.
+
+- Do_direct_payment_demo()
+- Get_balance()
+
+The Adaptive Payments controller has one sample ready for demo.
+
+- Convert_currency()
+
+The PayFlow controller has one sample ready for demo.
+
+- Process_transaction_demo()
 
 *********
 Resources
