@@ -2788,33 +2788,6 @@ class PayPal_Pro
 								
 		return $NVPResponseArray;	
 	}
-	
-	/**
-	 * Obtains information about a billing agreement's PayPal account holder. 
-	 *
-	 * @access	public
-	 * @param	array	call config data
-	 * @return	array
-	 */
-	function GetBillingAgreementCustomerDetails($Token)
-	{
-		$GBACDFieldsNVP = '&METHOD=GetBillingAgreementCustomerDetails&TOKEN=' . $Token;
-			
-		$NVPRequest = $this->NVPCredentials . $GBACDFieldsNVP;
-		$NVPResponse = $this->CURLRequest($NVPRequest);
-		$NVPRequestArray = $this->NVPToArray($NVPRequest);
-		$NVPResponseArray = $this->NVPToArray($NVPResponse);
-		
-		$Errors = $this->GetErrors($NVPResponseArray);
-		
-		$NVPResponseArray['ERRORS'] = $Errors;
-		$NVPResponseArray['REQUESTDATA'] = $NVPRequestArray;
-		$NVPResponseArray['RAWREQUEST'] = $NVPRequest;
-		$NVPResponseArray['RAWRESPONSE'] = $NVPResponse;
-				
-		return $NVPResponseArray;
-	}
-	
 }
 
 /* End of file Paypal_pro.php */
