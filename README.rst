@@ -2,11 +2,9 @@
 Notice
 ######
 
-This CodeIgniter specific version of our PayPal PHP Library is no longer being maintained.  
+Our `standard class library <https://github.com/angelleye/paypal-php-library>`_ is more closely maintained and is now compatible with Composer which allows you to autoload the library and make it available in CodeIgniter.
 
-Our `standard class library <https://github.com/angelleye/paypal-php-library>`_ has been updated and is now compatible with Composer which allow you to autoload the library and make it available in CodeIgniter.
-
-We are leaving this here in its current state, but all future updates will be done to the standard version.  
+We will still maintain this library as necessary, but if it may be beneficial to you to use the standard class with Composer.
 
 ************
 Introduction
