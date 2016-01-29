@@ -32,7 +32,7 @@ class Payflow extends CI_Controller
 	
 	function index()
 	{
-		$this->load->view('payflow_demo');
+		$this->load->view('paypal/samples/payflow_demo');
 	}
 	
 	function Process_transaction()
