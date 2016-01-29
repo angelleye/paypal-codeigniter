@@ -103,7 +103,7 @@ class Adaptive_payments extends CI_Controller
 		if(!$this->paypal_adaptive->APICallSuccessful($PayPalResult['Ack']))
 		{
 			$errors = array('Errors'=>$PayPalResult['Errors']);
-			$this->load->view('paypal/samples/paypal_error',$errors);
+			$this->load->view('paypal/samples/paypal',$errors);
 		}
 		else
 		{
@@ -245,7 +245,7 @@ class Adaptive_payments extends CI_Controller
 		if(!$this->paypal_adaptive->APICallSuccessful($PayPalResult['Ack']))
 		{
 			$errors = array('Errors'=>$PayPalResult['Errors']);
-			$this->load->view('paypal/samples/paypal_error',$errors);
+			$this->load->view('paypal/samples/paypal',$errors);
 		}
 		else
 		{
@@ -341,7 +341,7 @@ class Adaptive_payments extends CI_Controller
 		if(!$this->paypal_adaptive->APICallSuccessful($PayPalResult['Ack']))
 		{
 			$errors = array('Errors'=>$PayPalResult['Errors']);
-			$this->load->view('paypal/samples/paypal_error',$errors);
+			$this->load->view('paypal/samples/paypal',$errors);
 		}
 		else
 		{
@@ -367,7 +367,7 @@ class Adaptive_payments extends CI_Controller
 		if(!$this->paypal_adaptive->APICallSuccessful($PayPalResult['Ack']))
 		{
 			$errors = array('Errors'=>$PayPalResult['Errors']);
-			$this->load->view('paypal/samples/paypal_error',$errors);
+			$this->load->view('paypal/samples/paypal',$errors);
 		}
 		else
 		{
