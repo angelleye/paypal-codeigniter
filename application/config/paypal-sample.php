@@ -11,10 +11,10 @@ $config['Sandbox'] = TRUE;
 /* 
  * PayPal API Version
  * ------------------
- * The library is currently using PayPal API version 98.0.  
+ * The library is currently using PayPal API version 123.0.
  * You may adjust this value here and then pass it into the PayPal object when you create it within your scripts to override if necessary.
  */
-$config['APIVersion'] = '98.0';
+$config['APIVersion'] = '123.0';
 
 /*
  * PayPal Gateway API Credentials
@@ -25,7 +25,10 @@ $config['APIVersion'] = '98.0';
  * We're using shorthand if/else statements here to set both Sandbox and Production values.
  * Your sandbox values go on the left and your live values go on the right.
  * 
- * You may obtain these credentials by logging into the following with your PayPal account: https://www.paypal.com/us/cgi-bin/webscr?cmd=_login-api-run
+ * You may obtain these credentials by logging into the following with your PayPal account.
+ * Sandbox: https://www.sandbox.paypal.com/us/cgi-bin/webscr?cmd=_login-api-run
+ * Live: https://www.paypal.com/us/cgi-bin/webscr?cmd=_login-api-run
+ *
  */
 $config['APIUsername'] = $config['Sandbox'] ? 'SANDBOX_USERNAME_GOES_HERE' : 'PRODUCTION_USERNAME_GOES_HERE';
 $config['APIPassword'] = $config['Sandbox'] ? 'SANDBOX_PASSWORD_GOES_HERE' : 'PRODUCTION_PASSWORD_GOES_HERE';
