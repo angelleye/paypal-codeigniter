@@ -35,7 +35,7 @@ class Payments_pro extends CI_Controller
 	
 	function index()
 	{
-		$this->load->view('paypal/samples/payments_pro_demo');
+		$this->load->view('paypal/samples/payments_pro');
 	}
 	
 	
