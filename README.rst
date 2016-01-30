@@ -32,11 +32,11 @@ There are detailed comments inside the config file to help you fill it out corre
 How to Make PayPal API Calls
 ****************************
 
-Open /application/controllers/paypal/templates/controllername.php depending on which PayPal API you're going to be using.
+Open /application/controllers/paypal/templates/Controller_name.php depending on which PayPal API you're going to be using.
 
-You can build directly into the template functions if you want to, however, I recommend keeping those empty for future reference, so you may want to copy the function to your own controller.
+Example:  If we want to make a call to the RefundTransaction API we open Payments_pro.php and then seek out the Refund_transaction() function.
 
-Example:  If we want to make a call to the RefundTransaction API we open payments_pro.php and then seek out the Refund_transaction() function. 
+You can build directly into the template functions if you want to, however, I recommend you setup your own controller and copy the functions there.  This keeps the templates clean for future reference.  Just remember to load the PayPal config file and library in your constructor the same way the samples and templates do.
 
 Each template controller file includes functions with PHP arrays for every parameter available to that particular API. Simply fill in the array parameters with your own dynamic (or static) data. This data may come from...
 
