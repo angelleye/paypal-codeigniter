@@ -44,7 +44,7 @@ code {
 </head>
 <body>
 
-<p><a href="/paypal/samples/demo"><img src="https://www.angelleye.com/images/angelleye-paypal-header-750x90.jpg" width="750" height="90"></a></p>
+<p><a href="/paypal/samples/demo"><img src="https://www.angelleye.com/images/paypal-codeigniter-library-demo-header.png" width="750" height="90"></a></p>
 <h1>Angell EYE PayPal CodeIgniter Library Demo	</h1>
 <p>This library is written to reflect PayPal's documentation directly. It's very simple to use with a quick understanding of the way it's designed.</p>
 <ul>
