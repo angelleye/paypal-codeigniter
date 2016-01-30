@@ -54,7 +54,9 @@ If errors occur they will be available in $PayPalResult['ERRORS'].
 Samples
 *******
 
-Samples can be found at /application/controllers/paypal/samples/.
+After installing the library into CodeIgniter, the demo can be loaded at {baseurl}/paypal/samples/demo/.  This allows you to run the fully functional samples that are included with the library.
+
+The samples that the demo loads can be found at /application/controllers/paypal/samples/.
 
 The Payments Pro sample controller has two methods ready for demo purposes after you update your config file.
 
