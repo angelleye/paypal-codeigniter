@@ -4,7 +4,7 @@ Notice
 
 Our `standard class library <https://github.com/angelleye/paypal-php-library>`_ is more closely maintained and is now compatible with Composer which allows you to autoload the library and make it available in CodeIgniter.
 
-We will still maintain this library as necessary, but if it may be beneficial to you to use the standard class with Composer.
+We will still maintain this library for those of you who are not using Composer, but if you are you should probably look at the other library.
 
 ************
 Introduction
