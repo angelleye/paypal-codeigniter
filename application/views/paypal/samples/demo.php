@@ -61,7 +61,7 @@ code {
       </ul>
     </ul>
   </li>
-  <li>Simply fill in the empty parameters and pass that into the library.</li>
+  <li>Simply fill in the empty parameters and the library handles the rest.</li>
   <li>The library will handle all communication with PayPal, data parsing, etc. and return an array of results.
     <ul>
       <li>All actual response fields from PayPal</li>
