@@ -173,4 +173,4 @@ class Adaptive_payments extends CI_Controller
 }
 
 /* End of file adaptive_payments.php */
-/* Location: ./system/application/controllers/paypal/adaptive_payments.php */
+/* Location: ./system/application/controllers/paypal/samples/adaptive_payments.php */

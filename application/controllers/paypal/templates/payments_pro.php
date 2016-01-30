@@ -1663,4 +1663,4 @@ class Payments_pro extends CI_Controller
 }
 
 /* End of file payments_pro.php */
-/* Location: ./system/application/controllers/payments_pro.php */
+/* Location: ./system/application/controllers/paypal/samples/payments_pro.php */
