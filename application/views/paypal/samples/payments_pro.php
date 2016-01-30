@@ -22,7 +22,7 @@ h1 {
  color: #444;
  background-color: transparent;
  border-bottom: 1px solid #D0D0D0;
- font-size: 16px;
+ font-size: 20px;
  font-weight: bold;
  margin: 24px 0 2px 0;
  padding: 5px 0 6px 0;
@@ -49,25 +49,14 @@ code {
 <body>
 
 <p><a href="/paypal/samples/demo"><img src="https://www.angelleye.com/images/paypal-codeigniter-library-demo-header.png" width="750" height="90"></a></p>
-<h1>Angell EYE PayPal Payments Pro CodeIgniter Library Demo	</h1>
-<p>This library is written to reflect PayPal's documentation directly. It's very simple to use with a quick understanding of the way it's designed.</p>
-<ul>
-  <li>Every PayPal API method is included as a method within the library and also within the controller.  </li>
-  <li>The controller methods include &quot;templates&quot; that consists of every possible parameter that you can pass into that particular API call with PayPal.</li>
-  <li>Simply fill in the empty parameters and pass that into the library.</li>
-  <li>The library will handle all communication with PayPal, data parsing, etc. and return an array of results.
-    <ul>
-      <li>All actual response fields from PayPal</li>
-      <li>All request fields split up into individual fields for ease of troubleshooting</li>
-      <li>Raw request and response fields</li>
-    </ul>
-  </li>
-</ul>
-<p>There are two methods within the controller that are setup for demonstration purposes. I'll go over those here.</p>
+<h1>Angell EYE PayPal Payments Pro CodeIgniter Library Sample</h1>
+<p>The following samples demonstrate how to work with this library. </p>
 <h2>GetBalance</h2>
-<p>This call is extremely straight forward and simply returns the current account balance for the requesting API caller. The controller already has the following method included:</p>
+<p>This call is very straight forward and simply returns the current account balance for the requesting API caller. </p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/payments_pro.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/payments_pro.php</strong>.</p>
 <p>
-    <pre><code class="php">
+<pre><code class="php">
         function Get_balance()
         {
             $GBFields = array('returnallcurrencies' => '1');
@@ -91,9 +80,11 @@ code {
 </p>
 <p><a href="<?php echo site_url('paypal/samples/payments_pro/get_balance');?>" target="_blank">Run the code above and see the output.</a></p>
 <h2>DoDirectPayment</h2>
-<p>This call allows you to process credit cards directly using PayPal Payments Pro. The controller has a method called Do_direct_payment_demo() that is displayed here:</p>
+<p>This call allows you to process credit cards directly using PayPal Payments Pro. </p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/payments_pro.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/payments_pro.php</strong>.</p>
 <p>
-    <pre><code class="php">
+<pre><code class="php">
         function Do_direct_payment()
         {
             $DPFields = array(

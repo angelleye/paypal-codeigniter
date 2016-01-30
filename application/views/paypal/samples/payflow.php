@@ -22,7 +22,7 @@ h1 {
  color: #444;
  background-color: transparent;
  border-bottom: 1px solid #D0D0D0;
- font-size: 16px;
+ font-size: 20px;
  font-weight: bold;
  margin: 24px 0 2px 0;
  padding: 5px 0 6px 0;
@@ -49,11 +49,12 @@ code {
 <body>
 
 <p><a href="/paypal/samples/demo"><img src="https://www.angelleye.com/images/paypal-codeigniter-library-demo-header.png" width="750" height="90"></a></p>
-<h1>Angell EYE PayPal PayFlow CodeIgniter Library Demo	</h1>
-<p>This library is written to reflect PayPal's documentation directly. It's very simple to use with a quick understanding of the way it's designed.  </p>
-The following sample demonstrates how to work with this library.
+<h1>Angell EYE PayPal PayFlow CodeIgniter Library Sample	</h1>
+<p>The following samples demonstrate how to work with this library. </p>
 <h2>ProcessTransaction</h2>
-<p>This call is extremely straight forward and simply returns the converted currency values for the requested amount. The controller already has the following method included:</p>
+<p>This function provides a working sample of processing a credit card using the PayPal PayFlow gateway.</p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/payflow.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/payflow.php</strong>.</p>
 <p><pre><code class="php">
         function Process_transaction()
         {
