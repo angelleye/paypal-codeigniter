@@ -28,11 +28,11 @@ There are detailed comments inside the config file to help you fill it out corre
 How to Make PayPal API Calls
 ****************************
 
-Open /application/controllers/paypal/controllername.php depending on which PayPal API you're going to be using. 
+Open /application/controllers/paypal/templates/controllername.php depending on which PayPal API you're going to be using.
 
 Example:  If we want to make a call to the RefundTransaction API we open payments_pro.php and then seek out the Refund_transaction() function. 
 
-Each controller file includes functions with PHP arrays for every parameter available to that particular API. Simply fill in the array parameters with your own dynamic (or static) data. This data may come from...
+Each template controller file includes functions with PHP arrays for every parameter available to that particular API. Simply fill in the array parameters with your own dynamic (or static) data. This data may come from...
 
 - Session Variables
 - PHP Variables
@@ -48,9 +48,11 @@ If errors occur they will be available in $PayPalResult['ERRORS'].
 Samples
 *******
 
-The Payments Pro controller has two methods ready for demo purposes after you update your config file.
+Samples can be found at /application/controllers/paypal/samples/.
 
-- Do_direct_payment_demo()
+The Payments Pro sample controller has two methods ready for demo purposes after you update your config file.
+
+- Do_direct_payment()
 - Get_balance()
 
 The Adaptive Payments controller has one sample ready for demo.
@@ -59,7 +61,7 @@ The Adaptive Payments controller has one sample ready for demo.
 
 The PayFlow controller has one sample ready for demo.
 
-- Process_transaction_demo()
+- Process_transaction()
 
 ******
 Notice
