@@ -102,3 +102,5 @@ class Payflow extends CI_Controller
 		}
 	}
 }
+/* End of file Payflow.php */
+/* Location: ./system/application/controllers/paypal/samples/Payflow.php */
