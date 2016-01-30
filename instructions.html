@@ -14,7 +14,7 @@ body,td,th {
 <body>
 <h1>Setup</h1>
 <ul>
-  <li><a href="http://www.angelleye.com/download-codeigniter-php-library-for-paypal-payments-pro/" target="_blank">Download the PHP class library for PayPal</a> and upload to a directory on your web server.</li>
+  <li><a href="https://github.com/angelleye/paypal-codeigniter" target="_blank">Download the PHP class library for PayPal</a> and upload to a directory on your web server.</li>
   <li>Open /application/config/paypal-sample.php and adjust the values with your own Sandbox and Production API credentials.  Then save-as paypal.php.
     <ul>
       <li>There are detailed comments inside the config file to help you fill it out correctly.</li>
@@ -23,12 +23,12 @@ body,td,th {
 </ul>
 <h1>How to Make PayPal API Calls</h1>
 <ul>
-  <li>Open /application/controllers/paypal/controllername.php depending on which PayPal API you're going to be using.  
+  <li>Open /application/controllers/paypal/templates/controllername.php depending on which PayPal API you're going to be using.  
     <ul>
       <li>Example: If we want to make a call to the RefundTransaction API we open payments_pro.php and then seek out the Refund_transaction() function.  </li>
     </ul>
   </li>
-  <li>Each controller file includes functions with PHP arrays for every parameter available to that particular API. Simply fill in the array parameters with your own dynamic (or static) data.  This data may come from...
+  <li>Each template function includes  PHP arrays for every parameter available to that particular API call. Simply fill in the array parameters with your own dynamic (or static) data.  This data may come from...
     <ul>
       <li>Session Variables</li>
       <li>PHP Variables</li>
@@ -56,6 +56,11 @@ body,td,th {
       <li>You may use $this-&gt;library_name-&gt;APICallSuccessful($Ack) to do this for you.</li>
     </ul>
   </li>
+  <li>You may build your calls directly into the template controllers if you would like to, but we recommend keeping those clean for future reference.
+    <ul>
+      <li>Instead, copy the function to your own controller, and of course make sure to include the PayPal configuration and library in your controller, which you can see in the constructor of the sample and template controllers.</li>
+    </ul>
+  </li>
 </ul>
 <h1>Tips for Testing in the Sandbox</h1>
 <ul>
@@ -63,6 +68,7 @@ body,td,th {
   <li>Create at least one sandbox Seller account and one sandbox Buyer account from within your developer account.
     <ul>
       <li>These accounts can be used to go through the entire process of buying items within your application, and reviewing what each party involved will see in their PayPal account when the transaction is completed.</li>
+      <li><a href="https://www.angelleye.com/create-paypal-sandbox-account/" target="_blank">How to create PayPal sandbox accounts</a>.</li>
     </ul>
   </li>
 </ul>
