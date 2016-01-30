@@ -54,7 +54,7 @@ If errors occur they will be available in $PayPalResult['ERRORS'].
 Samples
 *******
 
-After installing the library into CodeIgniter, the demo can be loaded at {baseurl}/paypal/samples/demo/.  This allows you to run the fully functional samples that are included with the library.
+After installing the library into CodeIgniter, the demo can be loaded at {base_url}/paypal/samples/demo/.  This allows you to run the fully functional samples that are included with the library.
 
 The samples that the demo loads can be found at /application/controllers/paypal/samples/.
 
