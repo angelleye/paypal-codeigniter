@@ -53,8 +53,8 @@ code {
 <p>The following samples demonstrate how to work with this library. </p>
 <h2>ConvertCurrency</h2>
 <p>This call is very straight forward and simply returns the converted currency values for the requested amount. </p>
-<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/adaptive_payments.php</strong>. </p>
-<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/adaptive_payments.php</strong>.</p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/Adaptive_payments.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/Adaptive_payments.php</strong>.</p>
 <p><pre><code>
         function Convert_currency()
         {

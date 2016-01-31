@@ -53,8 +53,8 @@ code {
 <p>The following samples demonstrate how to work with this library. </p>
 <h2>ProcessTransaction</h2>
 <p>This function provides a working sample of processing a credit card using the PayPal PayFlow gateway.</p>
-<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/payflow.php</strong>. </p>
-<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/payflow.php</strong>.</p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/Payflow.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/Payflow.php</strong>.</p>
 <p><pre><code class="php">
         function Process_transaction()
         {

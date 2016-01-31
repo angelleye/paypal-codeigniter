@@ -53,8 +53,8 @@ code {
 <p>The following samples demonstrate how to work with this library. </p>
 <h2>GetBalance</h2>
 <p>This call is very straight forward and simply returns the current account balance for the requesting API caller. </p>
-<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/payments_pro.php</strong>. </p>
-<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/payments_pro.php</strong>.</p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/Payments_pro.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/Payments_pro.php</strong>.</p>
 <p>
 <pre><code class="php">
         function Get_balance()
