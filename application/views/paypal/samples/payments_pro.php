@@ -81,8 +81,8 @@ code {
 <p><a href="<?php echo site_url('paypal/samples/payments_pro/get_balance');?>" target="_blank">Run the code above and see the output.</a></p>
 <h2>DoDirectPayment</h2>
 <p>This call allows you to process credit cards directly using PayPal Payments Pro. </p>
-<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/payments_pro.php</strong>. </p>
-<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/payments_pro.php</strong>.</p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/Payments_pro.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/Payments_pro.php</strong>.</p>
 <p>
 <pre><code class="php">
         function Do_direct_payment()

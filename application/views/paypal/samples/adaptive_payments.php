@@ -99,8 +99,8 @@ code {
 </p>
 <p>When you click the link below, the sample will return a dump of the result as well as a link to continue to PayPal. Click the link to move forward with payment. </p>
 <p>Again, you'll need your own PayPal developer account and sandbox accounts to really be able to see exactly how all of this would look within each account, but the code sample shown processes the chained payment successfully.</p>
-<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/adaptive_payments.php</strong>. </p>
-<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/adaptive_payments.php</strong>.</p>
+<p>The fully functional sample code displayed here is found in <strong>/application/controllers/paypal/samples/Adaptive_payments.php</strong>. </p>
+<p>An empty version of this function can be found in <strong>/application/controlles/paypal/templates/Adaptive_payments.php</strong>.</p>
 <p><pre><code>
             function Pay_chained()
             {
