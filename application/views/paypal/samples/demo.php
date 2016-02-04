@@ -77,6 +77,6 @@ code {
   <li><a href="<?php echo site_url('paypal/samples/payflow'); ?>">PayFlow</a></li>
 </ul>
 <p>Click the links for functional samples of API calls from these libraries.</p>
-<p><a href="http://angelleye.com/how-to-integrate-paypal-with-codeigniter-php-class-library/" target="_blank">View More Detailed Documentation</a></p>
+<p><a href="http://angelleye.com/how-to-integrate-paypal-with-codeigniter-php-class-library/" target="_blank">View More Detailed Documentation</a> | <a href="https://www.angelleye.com/product-category/php-class-libraries/demo-kits/" target="_blank">Get Fully Functional Demo Kits</a></p>
 </body>
 </html>
