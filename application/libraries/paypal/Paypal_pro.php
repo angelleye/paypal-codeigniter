@@ -1382,7 +1382,7 @@ class PayPal_Pro
 		
 		// Survey Choices
 		$SurveyChoices = isset($DataArray['SurveyChoices']) ? $DataArray['SurveyChoices'] : array();
-		if($SECFields['surveyquestion'] != '')
+		if(!empty($SECFields['surveyquestion']))
 		{
 			$n = 0;
 			foreach($SurveyChoices as $SurveyChoice)
